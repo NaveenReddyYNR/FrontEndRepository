@@ -1,17 +1,24 @@
 img {
-    width: 30%;
-    /* margin: 1.6666666%; */
-    margin: calc(10%/6);
+  width: 30%;
+  /* margin: 1.6666666%; */
+  margin: calc(10% / 6);
+  /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 5%;
 }
 
 nav {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    border-bottom: 2px solid #f1f1f1;
-    width: 30%;
-    margin-left: calc(10%/6);
-    padding: 1.2em 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  margin-left: calc(10% / 6);
+  padding: 1.2em 0;
 }
 
 /* 30 + 30 + 30
