@@ -17,7 +17,7 @@
 // ======================================
 
 for (let num = 1; num <= 10; num += 1) {
-    console.log(num);
+  console.log(num);
 }
 
 // ======================================
@@ -45,8 +45,10 @@ for (let num = 1; num <= 10; num += 1) {
 // }
 // ================================
 // ================================
-
-
-
-
-
+function totalarr(arr){
+    let total = 0;
+    for(let i=0;i<arr.length;i++){
+        total += arr[i];
+    }
+    return total;
+}
