@@ -1,0 +1,22 @@
+clg→ consol­e.l­og(­object)
+
+rafce -> imp react, a func ret, exp
+
+rfce -> imp react, a func ret, exp
+
+imrse -> react, usestate, useeffect
+
+imr -> imp react
+
+nfn -> const name = (params) => {}
+
+rcc/ rce -> class exp // rce 
+
+rxaction→
+redux action template
+
+redux→
+import { connect } from 'react­-redux'
+
+rxreducer→
+redux reducer template
