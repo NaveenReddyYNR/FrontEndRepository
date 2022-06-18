@@ -10,8 +10,8 @@ class GoogleAuth extends React.Component {
           clientId:
             "797401886567-9cumct9mrt3v2va409rasa7fa6fq02hh.apps.googleusercontent.com",
           scope: "email",
-          plugin_name: "streamy",
         })
+
         .then(() => {
           this.auth = window.gapi.auth2.getAuthInstance();
 
@@ -30,8 +30,7 @@ class GoogleAuth extends React.Component {
   };
 
   onSignInClick = () => {
-    // this.auth.signIn();
-    this.auth.signIn({ prompt: "select_account" });
+    this.auth.signIn();
   };
 
   onSignOutClick = () => {

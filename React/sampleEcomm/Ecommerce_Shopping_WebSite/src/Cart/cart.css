@@ -1,0 +1,13 @@
+.cartItems {
+  margin: 25px;
+  color: red;
+}
+
+.cartItem {
+  width: 50%;
+  margin: 15px;
+  color: blue;
+  padding: 15px;
+  border: yellowgreen solid 2px;
+  background-color: aqua;
+}
